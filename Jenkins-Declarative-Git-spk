@@ -2,10 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Git Checkout') {
-            steps {
-                git 'https://github.com/spkreddyqa/myweb.git'
-            }
-        }
+        stage('Git Checkout') 
     }
 }
